@@ -1,0 +1,128 @@
+*{
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: white;
+}   
+
+.section-1{
+    width: auto;
+    background-color: #07243a;
+    padding: 30px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1{
+    width: 350px;
+    background-color: #0e3453;
+    padding: 30px;
+    border-radius: 10px;
+    animation: entrance 1s ;
+    animation-direction: right;
+}
+
+@keyframes entrance {
+
+    0%{transform: translateY(-150px);}
+    100%{
+        transform: translateY(5px);
+    }
+    
+}
+
+.col-1 h2{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.col-1 .p1 .sp1{
+    color: #949cac;
+    border-left: 1px solid #949cac;
+    padding-left: 5px;
+}
+
+.col-1 .p2{
+    margin-top: 15px;
+    font-size: 15px;
+    color: #949cac;
+}
+
+.col-1 .form-item{
+    margin-top: 25px;
+}
+
+.col-1 .form-input{
+    width: 310px;
+    height: 40px;
+    background-color: #0e3453;
+    border: 2px solid #153d59;
+    outline: 0px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.col-1 .form-input:focus{
+    border: 2px solid #285477;
+    background-color: #193f59;
+}
+
+.col-1 .fa{
+    position: relative;
+    top: 59px;
+    left: 15px;
+    z-index: 1;
+}
+
+
+
+
+
+.col-1 .sp2{
+    font-size: 14px;
+}
+
+.col-1 .sp2 .sp3{
+    font-size: 14px;
+    color: #44b9fe;
+    cursor: pointer;
+}
+
+
+
+.col-1 .form-submit{
+    width: 350px;
+    height: 45px;
+    background-color: #44b9fe;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.col-1 .p3{
+    margin-top: 80px;
+}
+
+.col-1 .p3 .sp4{
+    margin-left: 10px;
+    color: #4a9ae0;
+    cursor: pointer;
+}
+
+
+.col-2{
+    background-image: url("https://imgs.search.brave.com/4VaEYMGnuZICoIGTzWd4wk6sB7I3mgW0pxPgISzaezk/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2FhL2Q2/L2YxL2FhZDZmMTY0/NDc5MjgxNmE1ZTA1/Y2I2MmVmMjg1NDM0/LmpwZw");
+    width: 60%;
+    height: 300px;
+    background-color: aliceblue;
+}
