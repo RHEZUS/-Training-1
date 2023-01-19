@@ -121,8 +121,27 @@ body{
 
 
 .col-2{
-    background-image: url("https://imgs.search.brave.com/4VaEYMGnuZICoIGTzWd4wk6sB7I3mgW0pxPgISzaezk/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2FhL2Q2/L2YxL2FhZDZmMTY0/NDc5MjgxNmE1ZTA1/Y2I2MmVmMjg1NDM0/LmpwZw");
+    background:linear-gradient(#07243abe, #07243abe), url("https://imgs.search.brave.com/BhCB2bC7eKY194bI-De3M7V4DPdMTCfbjDm-7iFe3cc/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93ZWJz/dG9ja3Jldmlldy5u/ZXQvaW1hZ2VzL2Ns/aXBhcnQtZGVzay13/b21hbi0xLnBuZw");
+    
+    background-position: center;
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
     width: 60%;
-    height: 300px;
-    background-color: aliceblue;
+    padding: 30px;
+    height: 700px;
+    z-index: 1;
+    text-align: right;
+}
+
+.col-2  i{
+    background-color: #233f51;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.col-2  i:hover{
+    cursor: pointer;
 }
